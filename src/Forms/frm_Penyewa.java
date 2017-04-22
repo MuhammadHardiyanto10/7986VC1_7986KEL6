@@ -27,18 +27,115 @@ public class frm_Penyewa extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        layoutStyle1 = new org.jdesktop.layout.LayoutStyle();
+        panel1 = new usu.widget.Panel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jDateChooser1 = new com.toedter.calendar.JDateChooser();
+        jTextField4 = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        jTextField12 = new javax.swing.JTextField();
+        jButton2 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        jPanel1 = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        panel1.setBackgroundImage(new javax.swing.ImageIcon(getClass().getResource("/IMG/bgFormPenghuni.png"))); // NOI18N
+        panel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField1.setText("jTextField1");
+        panel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 135, 177, -1));
+
+        jTextField2.setText("jTextField2");
+        panel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 165, 177, -1));
+
+        jTextField3.setText("jTextField3");
+        panel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 195, 177, -1));
+        panel1.add(jDateChooser1, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 224, 177, -1));
+
+        jTextField4.setText("jTextField4");
+        panel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 284, 177, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Gender", "Pria", "Wanita", " " }));
+        panel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 254, 177, -1));
+
+        jTextField5.setText("jTextField5");
+        panel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 314, 177, -1));
+
+        jTextField6.setText("jTextField6");
+        panel1.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 344, 177, -1));
+
+        jTextField7.setText("jTextField7");
+        panel1.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 374, 177, -1));
+
+        jTextField8.setText("jTextField8");
+        panel1.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 403, 177, -1));
+
+        jTextField9.setText("jTextField9");
+        panel1.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 433, 177, -1));
+
+        jTextField11.setText("jTextField11");
+        panel1.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 463, 95, -1));
+
+        jButton1.setText("Browse");
+        panel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(313, 461, -1, -1));
+
+        jTextField12.setText("jTextField12");
+        panel1.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(205, 493, 95, -1));
+
+        jButton2.setText("Browse");
+        jButton2.setAlignmentY(0.0F);
+        jButton2.setAutoscrolls(true);
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        panel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(312, 491, -1, -1));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
+        panel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 130, 720, 490));
+
+        jPanel1.setLayout(new java.awt.GridLayout(1, 0, 5, 0));
+
+        jButton4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton4.setText("Tambah");
+        jPanel1.add(jButton4);
+
+        jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton5.setText("Edit");
+        jPanel1.add(jButton5);
+
+        jButton6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton6.setText("Hapus");
+        jPanel1.add(jButton6);
+
+        panel1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 550, 350, 40));
+
+        getContentPane().add(panel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 660));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +176,28 @@ public class frm_Penyewa extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private com.toedter.calendar.JDateChooser jDateChooser1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
+    private org.jdesktop.layout.LayoutStyle layoutStyle1;
+    private usu.widget.Panel panel1;
     // End of variables declaration//GEN-END:variables
 }

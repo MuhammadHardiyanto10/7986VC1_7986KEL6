@@ -221,11 +221,13 @@ public class frm_Home extends javax.swing.JFrame {
     private void pnlDataPenghuniMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlDataPenghuniMousePressed
         // TODO add your handling code here:
         pnlDataPenghuni.setBackground(new Color(103,183,242));
+        
     }//GEN-LAST:event_pnlDataPenghuniMousePressed
 
     private void pnlDataPenghuniMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlDataPenghuniMouseReleased
         // TODO add your handling code here:
         pnlDataPenghuni.setBackground(new Color(255, 229, 136));
+        new frm_Penyewa().setVisible(true);
     }//GEN-LAST:event_pnlDataPenghuniMouseReleased
 
     private void pnlDataKamarMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlDataKamarMousePressed
