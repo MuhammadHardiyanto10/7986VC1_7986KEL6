@@ -47,9 +47,13 @@ public class frm_Penyewa extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jPanel1 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
+        jTextField10 = new javax.swing.JTextField();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -117,9 +121,13 @@ public class frm_Penyewa extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        panel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 130, 720, 490));
+        panel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 180, 720, 440));
 
         jPanel1.setLayout(new java.awt.GridLayout(1, 0, 5, 0));
+
+        jButton7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton7.setText("Simpan");
+        jPanel1.add(jButton7);
 
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton4.setText("Tambah");
@@ -133,12 +141,30 @@ public class frm_Penyewa extends javax.swing.JFrame {
         jButton6.setText("Hapus");
         jPanel1.add(jButton6);
 
-        panel1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 550, 350, 40));
+        panel1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 573, 350, 40));
+
+        jTextField10.setText("jTextField10");
+        panel1.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 138, 220, -1));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cari Berdasarkan" }));
+        panel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 138, 180, -1));
+
+        jButton3.setText("Cari");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        panel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1068, 136, 70, -1));
 
         getContentPane().add(panel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1180, 660));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -178,15 +204,19 @@ public class frm_Penyewa extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
     private com.toedter.calendar.JDateChooser jDateChooser1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField2;
